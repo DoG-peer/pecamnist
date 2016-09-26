@@ -1,0 +1,7 @@
+Flask==0.11.1
+psycopg2==2.6.1
+Flask-Migrate==1.8.0
+Flask-Script==2.0.5
+Flask-SQLAlchemy==2.1
+gunicorn==19.4.5
+https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0-cp35-cp35m-linux_x86_64.whl

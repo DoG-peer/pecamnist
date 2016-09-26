@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1>お題: <span id="odai">すたちゅー</span></h1>
+<h2>これまで描いた数: <span id="count"></span></h2>
+<div class="well row">
+  <div class="col-xs-6">
+    <div>
+      <button class="btn btn-default" id="btn_pen">ペン</button>
+      <button class="btn btn-default" id="btn_eraser">消しゴム</button>
+      <button class="btn btn-default" id="btn_clear">消す</button>
+    </div>
+    <canvas id="main_canvas" width="320" height="320"></canvas>
+  </div>
+  <div class="col-xs-6">
+    <p>32x32プレビュー</p>
+    <p><canvas id="preview_canvas" width="32" height="32"></canvas></p>
+    <button class="btn btn-default" id="btn_submit">提出</button>
+    <p>例</p>
+    <img id="sample" src="static/stamp1.png"></img>
+  </div>
+</div>
+{% endblock %}
+{% block script %}
+<script src="/static/util.js"></script>
+<script src="/static/index.js"></script>
+{% endblock %}

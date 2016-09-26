@@ -1,0 +1,8 @@
+canvas {
+  background-color: white;
+}
+
+img.result_sample_image {
+  height: 64px;
+  width: 64px;
+}
